@@ -49,7 +49,7 @@ data/vocab/*
 !data/vocab/.gitkeep
 
 # Output files
-outputs/*
+# outputs/*
 !outputs/.gitkeep
 
 # Notebooks checkpoints
