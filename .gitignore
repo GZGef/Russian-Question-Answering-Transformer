@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.out
+
+# Model files
+models/
+models/*.keras
+models/*.h5
+models/*.pb
+models/*.zip
+models/*.ckpt*
+models/*.weights*
+
+# Data files
+data/raw/*
+data/processed/*
+data/vocab/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/vocab/.gitkeep
+
+# Output files
+outputs/*
+!outputs/.gitkeep
+
+# Notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Large data files
+*.csv
+*.tsv
+*.parquet
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Keep important config files
+!requirements.txt
+!README.md
+!.gitignore
